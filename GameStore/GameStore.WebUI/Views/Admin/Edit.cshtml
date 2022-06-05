@@ -1,0 +1,16 @@
+﻿@model GameStore.Domain.Entities.Game
+
+@{
+    ViewBag.Title = "Админ панель: редактирование товара";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="panel">
+    <h2>Редактирование игры «@Model.Name»</h2>
+
+    @using (Html.BeginForm("Edit", "Admin"))
+    {
+        @Html.EditorForModel()
+        <input type="submit" value="Сохранить" />
+        @Html.ActionLink("Отменить изменения и вернуться к списку", "Index")
+    }
+</div>

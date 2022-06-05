@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "069ee2f3-0df3-4124-8305-08337f9c5a8b": {
+      "ProjectGuid": "069ee2f3-0df3-4124-8305-08337f9c5a8b",
+      "DisplayName": "GameStore.Domain",
+      "ColorIndex": 0
+    },
+    "bb7e55b1-755d-4f3b-9d8c-e9d5c52649f5": {
+      "ProjectGuid": "bb7e55b1-755d-4f3b-9d8c-e9d5c52649f5",
+      "DisplayName": "GameStore.WebUI",
+      "ColorIndex": 1
+    },
+    "d7a84264-9c3e-400b-be25-a2f96d967058": {
+      "ProjectGuid": "d7a84264-9c3e-400b-be25-a2f96d967058",
+      "DisplayName": "GameStore.UnitTests",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}
